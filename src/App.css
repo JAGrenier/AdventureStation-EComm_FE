@@ -1,9 +1,9 @@
 :root{
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
-  --mainWhite: #f3f3f3;
-  --mainDark: #232528;
-  --mainYellow: #ffa400;
+  --mainGreen: #81B06D;
+  --lightGreen: #BAD4AF;
+  --mainWhite: #F4F8F2;
+  --mainDark: #273C2C;
+  --mainPurple: #8D6B94;
 }
 
 body {
@@ -19,9 +19,13 @@ body {
 }
 
 .text-blue{
-  color: var(--mainBlue);
+  color: var(--mainGreen);
 }
 
 .text-bright{
-  color: var(--lightBlue);
+  color: var(--lightGreen);
+}
+
+.nav-item{
+  list-style-type: none;
 }
