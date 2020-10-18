@@ -7,7 +7,7 @@ export default class Product extends Component {
     render() {
         const {id, title, img, price, inCart} = this.props.product; 
         return (
-            <ProductWrapper className="col-9 mx-auto col-md-6 col-3 my-3"> 
+            <ProductWrapper className="col-9 mx-auto col-md-6 col-lg-3 my-3"> 
                 <div className="card">
                     <div className="img-container p-5" onClick={() => {console.log("img container done been clicked")} }>
                     <Link to="/details">
@@ -42,7 +42,7 @@ export default class Product extends Component {
             </ProductWrapper>
         )
     }
-}
+} 
 
 const ProductWrapper = styled.div `
     .card{
@@ -90,7 +90,7 @@ const ProductWrapper = styled.div `
         transform:translate(0, 0);
     }
     .cart-btn:hover {
-        color: var(--mainGreen);
+        color:var(--mainGreen);
         curser: pointer; 
     }
 `;

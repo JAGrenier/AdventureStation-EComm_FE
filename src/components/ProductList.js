@@ -8,12 +8,11 @@ export default class ProductList extends Component {
         // console.log(this.state.products)
         return (
             <React.Fragment>
-                <div className="py-5>">
+                <div className="py-5">
                 <div className="container">
                     <Title name="our" title="products" />
                     <div className="row">
-
-                    </div>
+                    
                     <ProductConsumer>
                         {value => {
                             return value.products.map( product => {
@@ -21,6 +20,7 @@ export default class ProductList extends Component {
                             })
                         }}
                     </ProductConsumer>
+                    </div>
                 </div>
                 </div>
             </React.Fragment>
