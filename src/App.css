@@ -23,6 +23,9 @@ body {
 .text-green{
   color: var(--mainGreen);
 }
+.text-purple{
+  color: var(--mainPurple);
+}
 .text-bright{
   color: var(--lightGreen);
 }
@@ -51,15 +54,13 @@ body {
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover; 
-  /* margin: 1rem;
-  border-radius: 1rem; */
   box-shadow: 8px 8px 5px 0px rgba(0, 0,0, 0.75);
 }
 .jumbotron-text{
-  background-color: rgba(244, 248, 242, 0.3);
+  background-color: rgba(244, 248, 242, 0.4);
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .details-image{
   max-width: 100%;

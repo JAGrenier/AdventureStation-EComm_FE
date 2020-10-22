@@ -8,16 +8,16 @@ import CardDeck from 'react-bootstrap/CardDeck'
 export default function Home() {
     return (
         <>
-            <Jumbotron>
+            <Jumbotron className="fluid"> 
                 <div className="jumbotron-text text-center">
                 <h1>The Adventure Station</h1>
                     <p><strong>Your First Stop on Your Way To Adventure!</strong></p>
                 <p>
-                <Link to="/products" className="ml-auto d">
+                {/* <Link to="/products" className="ml-auto d">
                         <ButtonContainer>
                             View Adventures
                         </ButtonContainer>
-                    </Link>
+                    </Link> */}
                     </p>
                     </div>
             </Jumbotron>
