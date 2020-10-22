@@ -9,7 +9,8 @@ export default class Details extends Component {
         return (
             <ProductConsumer>
             {(value) => {
-                const {id, company, img, info, price, title, inCart} = value.detailProduct
+                console.log("value", value)
+                const {id, img, info, price, title, inCart, date1, date2} = value.detailProduct
                 return (
                     <div className="container py-5">
                         {/* title */}
@@ -22,26 +23,30 @@ export default class Details extends Component {
                         {/* product image */}
                         <div className="row">
                             <div className="col-10 mx-auto col-md-6 my-3">
-                                <img src={img} className="image-fluid" alt="product"></img>
+                                <img 
+                                    src={img} 
+                                    className="image-fluid details-image" 
+                                    alt="product"
+                                ></img>
                             </div>
                         {/* product text  */}
                             <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                                <h2>model : {title}</h2>
-                                <h3 className="text-muted mt-3 mb-2"> 
-                                Made By: <span className="text-uppercase">{company}</span>
-                                </h3>
+                                <h2>Adventure : {title}</h2>
                                 <h4 className="text-green">
                                     <strong> 
                                         price: <span>$</span> {price}
                                     </strong>
                                 </h4>
-                                <p className="text-capitalize font-weight-bold mt-3 mb-0">product info</p>
+                                <p className="text-capitalize font-weight-bold mt-3 mb-0">Dates</p>
+                                <p className="text-muted lead">{date1}</p>
+                                <p className="text-muted lead">{date2}</p>
+                                <p className="text-capitalize font-weight-bold mt-3 mb-0">Description</p>
                                 <p className="text-muted lead">{info}</p>
                                 {/* buttons */}
                                 <div>
-                                    <Link to="/">
+                                    <Link to="/products">
                                         <ButtonContainer>
-                                            back to products
+                                            back to upcoming adventures
                                         </ButtonContainer>
                                     </Link>
                                     <ButtonContainer 

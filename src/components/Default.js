@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import mouse from '../images/mouse.svg';
 
 export default class Default extends Component {
     render() {
@@ -9,8 +10,8 @@ export default class Default extends Component {
                     <div className="col-10 mx-auto text-center text-title text-uppercase pt-5">
                         <h1 className="display-3">404</h1>
                         <h1> Error</h1>
-                        <h2>Page Not Found</h2>
-                        <h3> The requested URL <span className='text-danger'>{this.props.location.pathname}</span> was not found</h3>
+                        <p> The requested URL <span className='text-danger'>{this.props.location.pathname}</span> was not found. It may have been eaten by this hungry mouse.</p>
+                        <img src={mouse} alt="icon of an gray mouse" className="image-fluid mouse"/>
                     </div>
                 </div>
             </div>

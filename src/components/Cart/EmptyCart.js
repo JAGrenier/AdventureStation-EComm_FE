@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { ButtonContainer } from '../Button'
 
 export default function EmptyCart() {
     return (
@@ -6,6 +8,12 @@ export default function EmptyCart() {
             <div className="row">
                 <div className="col-10 mx-auto text-center text-title">
                     <h1>Your Cart is Currently Empty</h1>
+                    <Link to="/products" className="ml-auto d">
+                        <ButtonContainer>
+                            View Adventures
+                        </ButtonContainer>
+                    </Link>
+                    
                 </div>
             </div>
         </div>

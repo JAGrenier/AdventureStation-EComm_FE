@@ -17,6 +17,7 @@ class ProductProvider extends Component {
     componentDidMount(){
         this.setProducts();
     }
+
     setProducts = () => {
         let tempProducts = [];
         storeProducts.forEach(item => {
@@ -150,7 +151,5 @@ class ProductProvider extends Component {
         )
     }
 }
-
 const ProductConsumer = ProductContext.Consumer;
-
 export { ProductProvider, ProductConsumer }
