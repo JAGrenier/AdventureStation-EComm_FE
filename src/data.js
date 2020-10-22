@@ -115,7 +115,7 @@ export const storeProducts = [
   {
     id: 9,
     title: "Taking Photos Outside",
-    img: "https://images.unsplash.com/photo-1559293743-cfccb6505e39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    img: "https://i.imgur.com/oVg0rTp.png",
     price: 50,
     company: null,
     date1: "10/24/2020",
@@ -143,7 +143,7 @@ export const storeProducts = [
   {
     id: 11,
     title: "Wildlife Viewing",
-    img: "https://images.unsplash.com/photo-1597836075265-f547b8e4eea1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80",
+    img: "https://www.playwinterpark.com/sites/default/files/styles/hero_image_new_small/public/Bull_Elk_RMNP.jpeg?itok=sDNkV2cd&timestamp=1480539922",
     price: 45,
     company: null,
     date1: "10/24/2020",

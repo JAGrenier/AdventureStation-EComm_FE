@@ -30,7 +30,7 @@ export default class Details extends Component {
                                 ></img>
                             </div>
                         {/* product text  */}
-                            <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
+                            <div className="col-10 mx-auto col-md-6 my-3 ">
                                 <h2>Adventure : {title}</h2>
                                 <h4 className="text-green">
                                     <strong> 
@@ -40,7 +40,7 @@ export default class Details extends Component {
                                 <p className="text-capitalize font-weight-bold mt-3 mb-0">Dates</p>
                                 <p className="text-muted lead">{date1}</p>
                                 <p className="text-muted lead">{date2}</p>
-                                <p className="text-capitalize font-weight-bold mt-3 mb-0">Description</p>
+                                <p className="font-weight-bold mt-3 mb-0">Description</p>
                                 <p className="text-muted lead">{info}</p>
                                 {/* buttons */}
                                 <div>

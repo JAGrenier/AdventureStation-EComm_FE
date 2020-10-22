@@ -7,7 +7,7 @@ export default function CartItem({item, value}) {
     return (
         <div className="row my-2 text-capitalize text-center">
             <div className="col-10 mx-auto col-lg-2">
-                <span className="d-lg-none">product: </span>
+                <span className="d-lg-none"> </span>
                 {title}
             </div>
             <div className="col-10 mx-auto col-lg-2">

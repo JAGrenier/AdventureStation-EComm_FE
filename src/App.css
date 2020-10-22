@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Oswald", sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   background: var(--mainWhite) !important;
   color:var(--mainDark) !important;
 }
@@ -16,7 +16,7 @@ body {
   color: var(--mainPurple);
 }
 .text-title{
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'KoHo', sans-serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -47,24 +47,27 @@ body {
   color: var(--mainPurple);
 }
 .jumbotron {
-  background-image: url(./images/MountainHome.jpg);
+  background-image: url(./images/compass.jpg);
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-size: cover; 
-  margin: 1rem;
-  border-radius: 1rem;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0,0, 0.75);
+  /* margin: 1rem;
+  border-radius: 1rem; */
+  box-shadow: 8px 8px 5px 0px rgba(0, 0,0, 0.75);
 }
 .jumbotron-text{
   background-color: rgba(244, 248, 242, 0.3);
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .details-image{
   max-width: 100%;
   height: auto;
 }
 .mouse{
+  height: 20%;
+}
+.logo{
   height: 20%;
 }

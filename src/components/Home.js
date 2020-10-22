@@ -4,7 +4,6 @@ import {ButtonContainer} from "./Button";
 import {Link} from 'react-router-dom'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-import ProductList from './ProductList';
 
 export default function Home() {
     return (
@@ -22,33 +21,49 @@ export default function Home() {
                     </p>
                     </div>
             </Jumbotron>
-            <CardDeck className="mx-2 card-deck">
+            <h2>Search by Activity</h2>
+            <CardDeck className="mx-2 card-deck text-center">
             <Card>
                     <Card.Body>
-                    <Card.Title>The Adventure Station</Card.Title>
+                    <Card.Title>Cycling</Card.Title>
                         <Card.Text>
-                            The adventure station was founded in 2020 as a way to get people outside in small groups. View our upcoming adventures to meet new friends, learn new skills, and get outside!
+                            <i className="fas fa-biking"></i>
                         </Card.Text>
                     </Card.Body>
             </Card>
             <Card>
                     <Card.Body>
-                        <Card.Title>Adventure Options</Card.Title>
-                            <Card.Text>
-                                The adventure station offers trips for beginners up to experts. The goal of our trips is to get outside, meet new people, and find new hobbies. We offer adventures in hiking, paddling, biking, and much more!
-                            </Card.Text>
+                    <Card.Title>Hiking</Card.Title>
+                        <Card.Text>
+                            <i className="fas fa-hiking"></i>
+                        </Card.Text>
+                    </Card.Body>
+            </Card> 
+            <Card>
+                    <Card.Body>
+                    <Card.Title>Photo</Card.Title>
+                        <Card.Text>
+                        <i className="fas fa-camera"></i>
+                        </Card.Text>
                     </Card.Body>
             </Card>
             <Card>
                     <Card.Body>
-                    <Card.Title>How do I register?</Card.Title>
+                        <Card.Title>Paddling</Card.Title>
+                            <Card.Text>
+                            <i className="fas fa-water"></i>
+                            </Card.Text>
+                    </Card.Body>
+            </Card> 
+            <Card>
+                    <Card.Body>
+                    <Card.Title>Relaxing</Card.Title>
                         <Card.Text>
-                            Add an adventure to your cart and check out to get all registered for your upcoming adventure!
+                        <i className="fas fa-mountain"></i>
                         </Card.Text>
                     </Card.Body>    
             </Card>
             </CardDeck>
-            <ProductList    />
         </>
     )
 }
