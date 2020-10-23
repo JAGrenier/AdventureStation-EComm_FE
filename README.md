@@ -21,7 +21,7 @@ PayPal Developer Tools
 Future plans for this project include creating an associated backend, an ability for users to login and save previous payment details, and the ability for admins to login in and create new adventures. 
 
 ## Demo Video
-![Demo Video](https://www.youtube.com/watch?v=U0Kp3RpuNNM)
+[Demo Video](https://www.youtube.com/watch?v=U0Kp3RpuNNM)
 
 ## Contact
 You can find me on [LinkedIn](https://www.linkedin.com/in/jennifer-a-grenier/)
