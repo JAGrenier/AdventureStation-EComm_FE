@@ -7,7 +7,8 @@ HTML, CSS, JavaScript, React, Bootstrap.
 PayPal Developer Tools
 
 ## Features 
-
+![AdventureStationGif1](/AdventureStationGif1.gif)
+![AdventureStationGif2](/AdventureStationGif1.gif)
 
 ## Challenges and Future Implementation 
 Future plans for this project include creating an associated backend, an ability for users to login and save previous payment details, and the ability for admins to login in and create new adventures. 
