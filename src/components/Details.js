@@ -10,7 +10,7 @@ export default class Details extends Component {
             <ProductConsumer>
             {(value) => {
                 console.log("value", value)
-                const {id, img, info, price, title, inCart, date1, date2} = value.detailProduct
+                const {id, img, img_credits, info, price, title, inCart, date1, date2} = value.detailProduct
                 return (
                     <div className="container py-5">
                         {/* title */}
@@ -28,6 +28,7 @@ export default class Details extends Component {
                                     className="image-fluid details-image" 
                                     alt="product"
                                 ></img>
+                                <p className="text-small">Photo by <a className="text-small" href={img_credits}>{img_credits}</a></p>
                             </div>
                         {/* product text  */}
                             <div className="col-10 mx-auto col-md-6 my-3 ">
@@ -46,7 +47,7 @@ export default class Details extends Component {
                                 <div>
                                     <Link to="/products">
                                         <ButtonContainer>
-                                            back to upcoming adventures
+                                            back adventures
                                         </ButtonContainer>
                                     </Link>
                                     <ButtonContainer 

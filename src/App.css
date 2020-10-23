@@ -23,6 +23,14 @@ body {
 .text-green{
   color: var(--mainGreen);
 }
+.text-small{
+  color: var(--mainGreen);
+  font-size: x-small;
+}
+.text-small a {
+  color: var(--mainGreen);
+  text-decoration: none;
+}
 .text-purple{
   color: var(--mainPurple);
 }
@@ -55,6 +63,7 @@ body {
   background-position: center;
   background-size: cover; 
   box-shadow: 8px 8px 5px 0px rgba(0, 0,0, 0.75);
+  min-height: 24rem;
 }
 .jumbotron-text{
   background-color: rgba(244, 248, 242, 0.4);

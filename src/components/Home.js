@@ -1,7 +1,5 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import {ButtonContainer} from "./Button";
-import {Link} from 'react-router-dom'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
 
@@ -11,7 +9,7 @@ export default function Home() {
             <Jumbotron className="fluid"> 
                 <div className="jumbotron-text text-center">
                 <h1>The Adventure Station</h1>
-                    <p><strong>Your First Stop on Your Way To Adventure!</strong></p>
+                    <h2>Your First Stop on Your Way To Adventure!</h2>
                 <p>
                 {/* <Link to="/products" className="ml-auto d">
                         <ButtonContainer>
@@ -21,7 +19,7 @@ export default function Home() {
                     </p>
                     </div>
             </Jumbotron>
-            <h2>Search by Activity</h2>
+            <h2>Offered Activities</h2>
             <CardDeck className="mx-2 card-deck text-center">
             <Card>
                     <Card.Body>
@@ -64,6 +62,7 @@ export default function Home() {
                     </Card.Body>    
             </Card>
             </CardDeck>
+            <p className="text-muted text-small" >Photo by <a href="https://unsplash.com/@anastasia_p">Anastasia Petrova</a> on Unsplash</p>
         </>
     )
 }
