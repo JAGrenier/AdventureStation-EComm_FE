@@ -26,7 +26,7 @@ export default class Details extends Component {
                                 <img 
                                     src={img} 
                                     className="image-fluid details-image" 
-                                    alt="product"
+                                    alt="selected adventure"
                                 ></img>
                                 <p className="text-small">Photo by <a className="text-small" href={img_credits}>{img_credits}</a></p>
                             </div>

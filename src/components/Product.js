@@ -14,7 +14,7 @@ export default class Product extends Component {
                         {value => (
                         <div className="img-container p-5" onClick={() => value.handleDetail(id)}>
                         <Link to="/details"> 
-                            <img src={img} alt="product" className="card-img-top"
+                            <img src={img} alt={title} className="card-img-top"
                             /> 
                         </Link>
                         <button 
@@ -44,9 +44,9 @@ export default class Product extends Component {
                         <p className="align-self-center mb-0">
                             {title}
                         </p>
-                        <h5 className="text-purple font-italic mb-0">
+                        <p className="text-purple font-italic mb-0">
                             <span className="mr-1">${price}</span>
-                        </h5>
+                        </p>
                     </div>
                 </div>
             </ProductWrapper>
