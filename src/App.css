@@ -40,6 +40,9 @@ body {
 .nav-item{
   list-style-type: none;
 }
+.nav-link{
+  font-size: 100% !important;
+}
 .btn-black{
   background: transparent;
   text-transform: capitalize;
