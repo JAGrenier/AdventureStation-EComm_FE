@@ -1,4 +1,4 @@
-# 🧗‍♂️ Adventure Station  🚵🏼
+# 🧗‍♂️ Adventure Station 🛒 
 
 With my background in outdoor recreation and interested in creating an e-commerence app, I was inspired to create an online store for buying outdoor experiences instead of items. The adventure station is an e-commerce site to register for outdoor adventures. The site include a home page, a product page, and a cart. The paypall developer sandbox api is set up to submit mock payments. 
 
